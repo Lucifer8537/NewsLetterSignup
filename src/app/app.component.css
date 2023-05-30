@@ -1,0 +1,271 @@
+.cover {
+  background-color: hsl(234, 29%, 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto";
+}
+
+.subscribe {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  height: 400px;
+  width: 650px;
+  border-radius: 30px;
+  padding: 15px 15px 15px 15px;
+  font-family: "Roboto";
+  color: hsl(235, 18%, 26%);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.subForm {
+  height: 88%;
+  width: 40%;
+  border-radius: 15px;
+  padding: 7% 10% 0% 5%;
+}
+
+.spanspacing {
+  line-height: 1.5;
+}
+
+.score {
+  background-image: url("../assets/illustration-sign-up-desktop.svg");
+  background-size: cover;
+  height: 100%;
+  width: 45%;
+  border-radius: 15px;
+}
+
+.heading {
+  font-family: "Roboto-Bold";
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.listing {
+  margin-top: 15px;
+}
+
+.listing div img {
+  width: 14px;
+  margin-right: 10px;
+}
+
+.listing div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.emailsub {
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+.emailsub span {
+  font-size: 9px;
+}
+
+.emailsub input {
+  margin-top: 8px;
+  font-weight: bold;
+  width: 97%;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid hsl(231, 7%, 60%, 0.25);
+  text-indent: 15px;
+}
+
+::placeholder {
+  color: hsl(231, 7%, 60%, 0.4);
+  text-indent: 15px;
+}
+
+.emailsub button {
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.emailsub button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 83, 121),
+    rgb(255, 104, 61)
+  );
+  border: 0px solid red !important;
+}
+
+input[type="email"] {
+  text-indent: 15px;
+}
+
+.errorMsg {
+  color: hsl(4, 100%, 67%);
+  margin-left: 124px;
+}
+
+.inputError {
+  border: 2px solid hsl(4, 100%, 67%, 0.5) !important;
+  background-color: hsl(4, 100%, 67%, 0.25);
+}
+
+.submitted {
+  background-color: hsl(0, 0%, 100%);
+  height: 300px;
+  width: 250px;
+  border-radius: 30px;
+  font-family: "Roboto";
+  color: hsl(235, 18%, 26%);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 40px 40px 40px 40px;
+}
+
+.submitted div img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.heading-height {
+  line-height: 1em;
+}
+
+.submitted span {
+  line-height: 1.5em;
+}
+
+.submitted-email {
+  font-weight: bold;
+}
+
+.emailDismiss button {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.emailDismiss button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 83, 121),
+    rgb(255, 104, 61)
+  );
+  border: 0px solid red !important;
+}
+
+.mob-subscribe {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.mob {
+  font-family: "Roboto";
+  font-size: 85%;
+  font-weight: 500;
+  color: hsl(235, 18%, 26%);
+}
+
+.mob img {
+  width: 100%;
+}
+
+.mob-submit {
+  padding: 10% 10% 0% 10%;
+}
+
+.mob-heading {
+  font-family: "Roboto-Bold";
+  font-weight: 700;
+  font-size: 280%;
+  margin-bottom: 5%;
+}
+.mob-listing {
+  margin-top: 5%;
+}
+
+.mob-listing div img {
+  width: 4%;
+  margin-right: 3%;
+}
+
+.mob-listing div {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.mob-emailsub {
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.mob-emailsub span {
+  font-size: 9px;
+}
+
+.mob-emailsub input {
+  margin-top: 4%;
+  font-weight: bold;
+  width: 97%;
+  height: 35px;
+  border-radius: 4px;
+  border: 2px solid hsl(231, 7%, 60%, 0.25);
+  text-indent: 15px;
+}
+
+.mob-emailsub ::placeholder {
+  color: hsl(231, 7%, 60%, 0.4);
+  text-indent: 15px;
+}
+
+.mob-emailsub button {
+  width: 100%;
+  border-radius: 5px;
+  height: 40px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(234, 29%, 20%);
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.mob-submitted-task {
+  width: 100vw;
+  height: 100vh;
+}
+
+.mob-submitted {
+  font-family: "Roboto";
+  color: hsl(235, 18%, 26%);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 35% 10% 10% 5%;
+}
+
+.tick-img {
+  height: 55px;
+  margin-bottom: 10%;
+}
+
+.mob-text {
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.mob-emailDismiss {
+  margin-top: 40%;
+}
